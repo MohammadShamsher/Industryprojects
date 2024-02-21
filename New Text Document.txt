@@ -9,4 +9,9 @@ git config --global user.name "Shamsher"
 git config --global user.email "mohammad.shamsher682@gmail.com"
 git status
 
+Add your files to the staging area using git add:
+git add .
 git commit -m "This is my first commit"
+git branch -M main
+git remote add origin https://github.com/MohammadShamsher/Industryprojects.git
+git push -u origin main
