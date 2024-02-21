@@ -1,0 +1,12 @@
+sudo apt update
+sudo apt install git
+
+git --version
+
+git init
+
+git config --global user.name "Shamsher"
+git config --global user.email "mohammad.shamsher682@gmail.com"
+git status
+
+git commit -m "This is my first commit"
